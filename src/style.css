@@ -54,7 +54,7 @@ body {
   color: var(--main-color);
 }
 
-.nav__link--active {
+.is-active {
   color: var(--main-color);
 }
 
