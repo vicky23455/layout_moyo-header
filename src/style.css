@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   padding: 0 50px;
   box-sizing: border-box;
+  height: 60px;
 }
 
 .logo {
@@ -30,8 +31,9 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 20px;
   list-style: none;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__item:not(:last-child) {
