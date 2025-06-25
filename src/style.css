@@ -1,11 +1,10 @@
-
 :root {
   --main-color: #00acdc;
 
- font-family: Roboto, Arial, Helvetica, sans-serif;
- font-size: 12px;
- font-weight: 400;
- line-height: 14px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
 }
 
 body {
@@ -22,12 +21,10 @@ body {
   box-sizing: border-box;
 }
 
-.logo{
+.logo {
   height: 40px;
   width: 40px;
 }
-
-
 
 .nav__list {
   display: flex;
@@ -62,7 +59,7 @@ body {
 }
 
 .is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
